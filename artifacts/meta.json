@@ -1,0 +1,144 @@
+{
+  "class_names": [
+    "Low",
+    "Average",
+    "High"
+  ],
+  "features": {
+    "Medu": {
+      "type": "num",
+      "min": 0,
+      "max": 4,
+      "default": 3
+    },
+    "Mjob": {
+      "type": "cat",
+      "options": [
+        "at_home",
+        "health",
+        "other",
+        "services",
+        "teacher"
+      ]
+    },
+    "Fjob": {
+      "type": "cat",
+      "options": [
+        "at_home",
+        "health",
+        "other",
+        "services",
+        "teacher"
+      ]
+    },
+    "guardian": {
+      "type": "cat",
+      "options": [
+        "father",
+        "mother",
+        "other"
+      ]
+    },
+    "address": {
+      "type": "cat",
+      "options": [
+        "R",
+        "U"
+      ]
+    },
+    "G2": {
+      "type": "num",
+      "min": 0,
+      "max": 19,
+      "default": 11
+    },
+    "G1": {
+      "type": "num",
+      "min": 3,
+      "max": 19,
+      "default": 11
+    },
+    "failures": {
+      "type": "num",
+      "min": 0,
+      "max": 3,
+      "default": 0
+    },
+    "higher": {
+      "type": "cat",
+      "options": [
+        "no",
+        "yes"
+      ]
+    },
+    "schoolsup": {
+      "type": "cat",
+      "options": [
+        "no",
+        "yes"
+      ]
+    },
+    "goout": {
+      "type": "num",
+      "min": 1,
+      "max": 5,
+      "default": 3
+    },
+    "famrel": {
+      "type": "num",
+      "min": 1,
+      "max": 5,
+      "default": 4
+    },
+    "internet": {
+      "type": "cat",
+      "options": [
+        "no",
+        "yes"
+      ]
+    },
+    "activities": {
+      "type": "cat",
+      "options": [
+        "no",
+        "yes"
+      ]
+    },
+    "freetime": {
+      "type": "num",
+      "min": 1,
+      "max": 5,
+      "default": 3
+    },
+    "health": {
+      "type": "num",
+      "min": 1,
+      "max": 5,
+      "default": 4
+    },
+    "Dalc": {
+      "type": "num",
+      "min": 1,
+      "max": 5,
+      "default": 1
+    },
+    "studytime": {
+      "type": "num",
+      "min": 1,
+      "max": 4,
+      "default": 2
+    },
+    "absences": {
+      "type": "num",
+      "min": 0,
+      "max": 75,
+      "default": 4
+    },
+    "Walc": {
+      "type": "num",
+      "min": 1,
+      "max": 5,
+      "default": 2
+    }
+  }
+}
